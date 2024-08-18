@@ -1,0 +1,77 @@
+.resume {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 45%;
+    /* background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%); */
+    border-radius: 20px;
+    transition: all .3s;
+
+    margin: 1rem;
+}
+
+.card2 {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+    color: white;
+    width: 100%;
+    background-color: #1a1a1a;
+    transition: all .2s;
+    transform: scale(0.90);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card2 span {
+    font-size: 1.8rem;
+    color: rgb(255, 189, 57);
+    margin: .8rem 0 .4rem 1.5rem;
+    font-weight: 700;
+}
+
+.card2 strong {
+    font-size: 1.5rem;
+    margin: .4rem 0 .2rem 1.5rem;
+    font-weight: 700;
+}
+
+.card2 p {
+    margin: .4rem .7rem .2rem 1.5rem;
+    text-align: justify;
+}
+
+.card2 i {
+    margin: .4rem 0 .2rem 1.5rem;
+    color: rgb(255, 189, 57);
+}
+
+.card2:hover {}
+
+.card:hover {}
+
+.technology {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.technology i {
+    color: rgb(255, 189, 57);
+}
+
+@media(max-width:852px) {
+    .resume {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+}
